@@ -5,7 +5,9 @@
 }
 
 body {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Helvetica;
   font-size: 22px;
   text-align: center;
@@ -42,6 +44,7 @@ nav span {
 .mission {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 70px;
   background-image: url(/Users/sabrinahoeke/Documents/TeaCozy/Resources/Images/img-mission-background.jpg);
   height: 700px;
@@ -57,4 +60,16 @@ nav span {
   height: 100px;
   width: 1200px;
   text-align: center;
+}
+
+.tea-month {
+  display: flex;
+}
+
+.locations {
+  display: flex;
+}
+
+footer {
+  display: flex;
 }
