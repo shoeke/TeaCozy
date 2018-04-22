@@ -64,6 +64,31 @@ nav span {
 
 .tea-month {
   display: flex;
+  flex-direction: column;
+  width: 1000px;
+  border: 2px solid yellow;
+}
+
+.month-title {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid pink;
+}
+
+.month-title h2, .month-title p {
+  padding: 10px;
+}
+
+.gallery {
+  border: 2px solid blue;
+  display: flex;
+
+}
+
+.gallery ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .locations {
