@@ -66,13 +66,11 @@ nav span {
   display: flex;
   flex-direction: column;
   width: 1000px;
-  border: 2px solid yellow;
 }
 
 .month-title {
   display: flex;
   flex-direction: column;
-  border: 2px solid pink;
 }
 
 .month-title h2, .month-title p {
@@ -80,15 +78,21 @@ nav span {
 }
 
 .gallery {
-  border: 2px solid blue;
   display: flex;
-
 }
 
 .gallery ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.gallery ul li {
+  margin: 15px;
+}
+
+.gallery ul li p {
+  margin-top: 10px;
 }
 
 .locations {
