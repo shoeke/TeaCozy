@@ -66,6 +66,7 @@ nav span {
   display: flex;
   flex-direction: column;
   width: 1000px;
+  margin: 60px 0px;
 }
 
 .month-title {
@@ -85,6 +86,7 @@ nav span {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  list-style-type: none;
 }
 
 .gallery ul li {
@@ -127,4 +129,20 @@ nav span {
 
 footer {
   display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 1200px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  margin-top: 15px;
+}
+
+#copyright {
+  align-items: flex-start;
+  margin-left: 20px;
 }
